@@ -1,0 +1,6 @@
+1 m2 de muro de adobe = 12.5 adobes
+10 m2 de muro de adobe se pegan con 1.5 bolsas de cemento
+6 bulto de arenas para 10 m2 de adobes de 10cm
+3 bultos de arena para 5 m2 de adobes de 15cm
+
+para calcular el m2 de arena para revoque 0.2 x 0.20

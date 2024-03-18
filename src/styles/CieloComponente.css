@@ -1,0 +1,107 @@
+/* CieloComponente.css */
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .metro2 {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 1.5);
+    background-color: rgb(250, 251, 255);
+  }
+
+  .metro2 label, input, button {
+    margin: 10px;
+  }
+
+  .metro2 label {
+    font-size: 18px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    margin-right: 10px; /* Ajusta el margen derecho según tus preferencias */
+  }
+  
+  .metro2 input {
+    padding: 8px; /* Ajusta el padding según tus preferencias */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .metro2 button {
+    padding: 6px 10px; /* Ajusta el padding según tus preferencias */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    background-color: #4caf50; /* Cambia el color de fondo según tus preferencias */
+    color: whitesmoke; /* Cambia el color del texto según tus preferencias */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Ajusta el radio de borde según tus preferencias */
+    cursor: pointer;
+  }
+  
+  .metro2 button:hover {
+    background-color: #3d8b41; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+  }
+  
+  .resultado {
+    width: 800px;
+    max-height: 380px;
+    overflow-y: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 1.5);
+    margin: 20px;
+    background-color: rgb(250, 251, 255);    
+  }
+
+  .cotizar {
+    padding: 6px 10px;
+    font-size: 16px;
+    background-color: #007bff; /* Puedes cambiar el color según tus preferencias */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cotizar:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse sobre el botón */
+  }
+
+  /* CieloComponente.css */
+  
+  .tabla {
+    display: flex;
+    justify-content: space-around; /* Ajusta según tus necesidades */
+  }
+  
+  .tableP,
+  .tableS {
+    padding: 4px;
+  }
+  
+  .tableP table,
+  .tableS table {
+    width: 100%;
+  }
+  
+  .tableP th,
+  .tableP td,
+  .tableS th,
+  .tableS td {
+    text-align: left;
+    padding: 5px; /* Ajusta según tus necesidades */
+  }
+  
+  .titulo {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  

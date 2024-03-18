@@ -1,0 +1,70 @@
+/* Contenedor principal */
+.categoria {
+  margin: 0;
+}
+
+.sub_nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #e0e0e0fa;
+  height: 8vh;
+}
+
+/* Lista de Categorías */
+.accesorios_categoria {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+/* Elemento de Categoría */
+li {
+  margin-bottom: 5px;
+}
+
+/* Botón "Ver" */
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Entrada de texto para nueva categoría */
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* Botón "Agregar Categoría" */
+button {
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para la sección de Productos */
+h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Lista de Productos */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Elemento de Producto */
+li {
+  margin-bottom: 5px;
+}

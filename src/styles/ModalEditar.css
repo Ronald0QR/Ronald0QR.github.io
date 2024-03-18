@@ -1,0 +1,36 @@
+/* Estilos para el modal */
+.modal {
+
+  position: fixed; /* Se posiciona de manera fija en la ventana del navegador */
+  z-index: 1; /* Le da una alta prioridad para que aparezca por encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ocupa todo el ancho */
+  height: 100%; /* Ocupa toda la altura */
+  overflow: auto; /* Añade barras de desplazamiento si el contenido es demasiado grande */
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+}
+
+/* Estilos para el contenido del modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* Centra el modal verticalmente */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Ancho del contenido del modal */
+}
+
+/* Estilos para el botón de cerrar */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
